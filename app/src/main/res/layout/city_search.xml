@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    // ImageView corresponding to weather
+
+    <ImageView
+        android:id="@+id/icon_recyclerCity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_sun" />
+
+    <TextView
+        android:id="@+id/temp_recyclerCity"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/temperature"
+        android:layout_toRightOf="@id/icon_recyclerCity"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/name_recyclerCity"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/city_name"
+        android:layout_toRightOf="@id/temp_recyclerCity"
+        android:textSize="15dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/wind_speed_recyclerCity"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/wind_speed"
+        android:layout_toRightOf="@id/name_recyclerCity"
+        android:textSize="15dp"
+        />
+</RelativeLayout>

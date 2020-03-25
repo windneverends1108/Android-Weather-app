@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WeatherTest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_s_temperature">Search City</string>
+    <string name="menu_precipitation">Your Localisation</string>
+    <string name="menu_run">Your conditions</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_account">My account</string>
+    <string name="precipitation_probability">Your Localisation</string>
+    <string name="just_tell_me_where_to_run">Just tell me where to go</string>
+    <string name="search_temperature">Search Temperature</string>
+    <string name="setting">Setting</string>
+    <string name="my_acount">My acount</string>
+    <string name="application">Application</string>
+    <string name="hour">Hour</string>
+    <string name="save">Save</string>
+    <string name="new_account_name">new account name</string>
+    <string name="capture">capture</string>
+    <string name="speed_wind">speed wind</string>k
+    <string name="humidity">humidity</string>
+    <string name="temperature" >temperature</string>
+    <string name="city_name">city_name</string>
+    <string name="wind_speed">wind speed:</string>
+    <string name="add_city">Add city</string>
+    <string name="clear">CLEAR</string>
+    <string name="add_constraint">add constraint</string>
+    <string name="enter_your_city">Enter your city</string>
+    <string name="ideal_wind">ideal wind</string>
+</resources>
